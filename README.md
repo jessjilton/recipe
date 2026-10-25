@@ -1,4 +1,5 @@
 # Recipe Box API
+Course: Maestro Authentication project – Jessica Jilton
 
 A small, working Flask + SQLite API for keeping recipes. Full CRUD, clean
 status codes - and **no authentication at all**. Anyone who can reach it can
@@ -15,7 +16,6 @@ python app.py
 Requires Python 3.10+ and Flask (`pip install -r requirements.txt`).
 
 ## Try it
-
 ```
 curl http://127.0.0.1:5000/recipes
 curl http://127.0.0.1:5000/recipes/1
